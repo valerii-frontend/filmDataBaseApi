@@ -5,11 +5,11 @@ const API_KEY = "api_key=a45e819dc588d4a31ae046e6ea1b6b49";
 // to get the key, you need to register on the site
 // link to site: https://www.themoviedb.org/documentation/api
 // const API_KEY = "api_key=USE-YOUR-API-KEY"
-const API_URL = `https://api.themoviedb.org/3/discover/movie?desc&${API_KEY}&language=ru-RU`;
+const API_URL = `https://api.themoviedb.org/3/discover/movie?desc&${API_KEY}&language=en-EN`;
 
 const IMG_PATH = "https://image.tmdb.org/t/p/w1280";
 
-const SEARCH_URL = `https://api.themoviedb.org/3/search/movie?${API_KEY}&language=ru-RU&query="`;
+const SEARCH_URL = `https://api.themoviedb.org/3/search/movie?${API_KEY}&language=en-EN&query="`;
 
 const form = document.querySelector(".header__form");
 const search = document.querySelector(".header__input");
